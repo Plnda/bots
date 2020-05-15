@@ -53,7 +53,7 @@ defaultBotSettings : BotSettings
 defaultBotSettings =
     { runAwayShieldHitpointsThresholdPercent = 70
     , targetingRange = 8000
-    , miningModuleRange = 5000
+    , miningModuleRange = 10000
     , botStepDelayMilliseconds = 2000
     , lastDockedStationNameFromInfoPanel = Nothing
     , oreHoldMaxPercent = 99
