@@ -433,7 +433,7 @@ unlockTargetsNotForMining context =
     let
         targetsToUnlock =
             context.parsedUserInterface.targets
-                |> List.filter (.textsTopToBottom >> List.any (String.toLower >> String.contains "plagioclase") >> not)
+                |> List.filter (.textsTopToBottom >> List.any (String.toLower >> String.contains "asteroid") >> not)
     in
     targetsToUnlock
         |> List.head
